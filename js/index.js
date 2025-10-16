@@ -12,12 +12,11 @@ console.log(getRandomInt(1, 100));
 
 
 function greet(message, names) {
-    console.log(`${message}, ${names}`);
-    return String(message), String(names);
+        return `${message}, ${names}`;
 };
-greet('Hey', 'Bob');
-greet('Hello' , 'Mary');
-greet('Hi' , 'John');
+console.log(greet('Hey', 'Bob'));
+console.log(greet('Hello' , 'Mary'));
+console.log(greet('Hi' , 'John'));
 
 
 
